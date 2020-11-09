@@ -16,8 +16,24 @@ meuEmissor.on(nomeEvento, function (click){
 //     meuEmissor.emit(nomeEvento, 'no ok' + (count++))
 // }, 1000)
 
-const stdin = process.openStdin()
-stdin.addListener('data', function (value){
-    console.log(`Voce digitou: ${value.toString().trim()}`)
-})
+// const stdin = process.openStdin()
 
+// stdin.addListener('data', function (value){
+//     console.log(`Voce digitou: ${value.toString().trim()}`)
+// })
+// a ideia da promisse é executar apenas uma vez
+
+// const stdin = process.openStdin()
+
+// function main(){
+//     return new Promise(function (resolve, reject){
+        
+//     stdin.addListener('data', function (value){
+//         // console.log(`Voce digitou: ${value.toString().trim()}`)
+//         return resolve(value)
+//     })
+// })
+// }
+// main().then(function (resultado){
+//     console.log('resultado', resultado.toString())
+// })
